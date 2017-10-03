@@ -5,7 +5,8 @@
   "author": "sire-sam <sire-sam@users.noreply.github.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@frctl/fractal": "^1.1.7"
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "^4.8.0",

@@ -6,7 +6,7 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@allmarkedup/fang/-/fang-1.0.0.tgz#20aa2ea365c57b0a28e6b563613270f5630d6883"
 
-"@frctl/fractal@^1.0.0", "@frctl/fractal@^1.1.0-alpha.0", "@frctl/fractal@^1.1.7":
+"@frctl/fractal@^1.0.0", "@frctl/fractal@^1.0.0-rc.1", "@frctl/fractal@^1.1.0-alpha.0", "@frctl/fractal@^1.1.7":
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.1.7.tgz#7f2e0874ef88b0f611a8d594965e3510f8c9ada3"
   dependencies:
@@ -67,6 +67,15 @@
     "@frctl/fractal" "^1.1.0-alpha.0"
     js-beautify "^1.6.2"
     lodash "^4.12.0"
+
+"@frctl/nunjucks@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@frctl/nunjucks/-/nunjucks-1.0.3.tgz#baf5e74944417b22085c616e92d07594d6523d2d"
+  dependencies:
+    "@frctl/fractal" "^1.0.0-rc.1"
+    bluebird "^3.3.4"
+    lodash "^4.0.0"
+    nunjucks "^2.4.2"
 
 abbrev@1:
   version "1.1.1"
@@ -359,7 +368,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.0.5, bluebird@^3.4.1:
+bluebird@^3.0.5, bluebird@^3.3.4, bluebird@^3.4.1:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
@@ -2209,7 +2218,7 @@ lodash@^3.10.1, lodash@^3.3.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.12.0, lodash@^4.14.1, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.1:
+lodash@^4.0.0, lodash@^4.12.0, lodash@^4.14.1, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
