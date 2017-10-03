@@ -1,9 +1,4 @@
 <blockquote>
-  <p>
-	This is a quote!
-	Somethin witty should probably go here
-  </p>
-  <cite>
-	Mr. A. Nonymous
-  </cite>
+  <p>{{ text }}</p>
+  <cite>{{ citation }}</cite>
 </blockquote>

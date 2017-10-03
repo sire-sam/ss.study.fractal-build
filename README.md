@@ -16,3 +16,4 @@ To perform these, I'll follow [Fractal user guide](http://fractal.build/guide).
 ## Feedback
 
 - Configuration of nunjucks was easy using official [Nunjucks Adapter](https://github.com/frctl/nunjucks)
+- no issue for data injection from a js config file
