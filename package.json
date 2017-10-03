@@ -1,0 +1,15 @@
+{
+  "name": "ss.study.fractal-build",
+  "version": "0.0.1",
+  "description": "Study repo for fractal.build",
+  "author": "sire-sam <sire-sam@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
