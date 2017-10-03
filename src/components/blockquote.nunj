@@ -1,4 +1,4 @@
-<blockquote>
+<blockquote class="blockquote{{ ' blockquote--'+ modifier if modifier }}">
   <p>{{ text }}</p>
   <cite>{{ citation }}</cite>
 </blockquote>
