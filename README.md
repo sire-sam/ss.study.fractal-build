@@ -1,5 +1,9 @@
 # Study case on fractal.build
 
+# Next
+
+1. Start [documentation's pages](https://fractal.build/guide/docs) documentation.
+
 ## Purpose
 After reading [Design Systems by Alla Kholmatova](https://www.smashingmagazine.com/design-systems-book/), I was looking for a flexible solution to implement design system.
 
