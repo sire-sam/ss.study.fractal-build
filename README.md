@@ -17,3 +17,6 @@ To perform these, I'll follow [Fractal user guide](http://fractal.build/guide).
 
 - Configuration of nunjucks was easy using official [Nunjucks Adapter](https://github.com/frctl/nunjucks)
 - no issue for data injection from a js config file
+- __render__ "helper" in handlebar seems to __give component context to sub-component__ by nature.
+  __For nunjucks__ Adapter, it seems __you have to specifically pass context to sub-component__. Best way I found
+  to do so, is by using the `_self.context` property. Ex: `{% render '@subComponent', _self.context %}`

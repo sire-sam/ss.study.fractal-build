@@ -1,0 +1,1 @@
+<button type="{{ button.type }}" name="submit">{{ button.text }}</button>
