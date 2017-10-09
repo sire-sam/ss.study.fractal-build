@@ -1,5 +1,5 @@
 <div class="searchbox">
     <label for="search">{{ label }}</label>
-    <input type="search" name="keywords" id="search">
+    <input type="search" name="keywords" id="search" placeholder="Anything on {{ siteName }}">
     {% render '@button',  _self.context, true  %}
 </div>
