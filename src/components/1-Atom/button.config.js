@@ -1,6 +1,6 @@
 module.exports = {
   status: 'ready',
-  label: 'Boutton',
+  label: 'Buttons',
   title: 'A simple button',
   tags: ['CTA', 'Button'],
   order: 1,
