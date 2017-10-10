@@ -8,6 +8,9 @@ const context = require('./data/context.json');
 fractal.set('project.title', 'FooCorp Component Library');
 // path tor public assets
 fractal.web.set('static.path', `${__dirname}/src/public`);
+// path to build folder
+fractal.web.set('builder.dest', `${__dirname}/build`);
+
 
 // Components settings
 // -------------------

@@ -21,3 +21,4 @@ To perform these, I'll follow [Fractal user guide](http://fractal.build/guide).
   __For nunjucks__ Adapter, it seems __you have to specifically pass context to sub-component__. Best way I found
   to do so, is by using the `_self.context` property. Ex: `{% render '@subComponent', _self.context %}`
 - Flexibility in mind, navigation easily customisable, and ability to create collection
+- Has build-in "builder" to generate static website, useful to avoid server configuration and maintenance
